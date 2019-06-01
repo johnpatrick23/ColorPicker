@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- option_menu_img_with_vid.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_more"
+        android:title="@string/visit_me"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/myFaceBook"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/facebook"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/myTwitter"
+                android:icon="@drawable/ic_twitter"
+                android:title="@string/twitter"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/myLinkedIn"
+                android:icon="@drawable/ic_linked_in"
+                android:title="@string/linkedin"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/myGithub"
+                android:icon="@drawable/ic_github"
+                android:title="@string/github"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>
